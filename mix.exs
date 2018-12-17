@@ -26,7 +26,9 @@ defmodule Issues.MixProject do
     [
       { :httpoison, "~> 1.5.0" },
       { :poison, "~> 4.0.1" },
-      { :scribe, "~> 0.8" }
+      { :scribe, "~> 0.8" },
+      { :ex_doc, "~> 0.19.1" },
+      { :earmark, "~> 1.3.0" }
     ]
   end
 
