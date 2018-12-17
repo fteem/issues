@@ -22,7 +22,8 @@ defmodule Issues.MixProject do
   defp deps do
     [
       { :httpoison, "~> 1.5.0" },
-      { :poison, "~> 4.0.1" }
+      { :poison, "~> 4.0.1" },
+      { :scribe, "~> 0.8" }
     ]
   end
 end
